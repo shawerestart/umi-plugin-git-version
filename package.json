@@ -1,0 +1,40 @@
+{
+  "name": "umi-plugin-git-version",
+  "version": "0.0.1",
+  "description": "get git version for umi base on git-revision-webpack-plugin",
+  "authors": [
+    "Tung <d0onmax95@gmail.com>"
+  ],
+  "repository": "shawerestart/umi-plugin-git-version",
+  "peerDependencies": {
+    "umi": "4.x"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "father-build"
+  },
+  "keywords": [
+    "React Git Version",
+    "git-revision-webpack-plugin",
+    "git-version",
+    "react",
+    "umi git version",
+    "umijs",
+    "umi4",
+    "webpack",
+    "webpack-plugin"
+  ],
+  "devDependencies": {
+    "father": "^2.30.21",
+    "father-build": "^1.8.0"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@umijs/renderer-react": "^4",
+    "git-revision-webpack-plugin": "^5.0.0"
+  }
+}
