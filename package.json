@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-git-version",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "get git version for umi base on git-revision-webpack-plugin",
   "authors": [
     "Tung <d0onmax95@gmail.com>"
@@ -37,7 +37,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@umijs/renderer-react": "^4",
+    "@umijs/renderer-react": "^3.2.9",
     "git-revision-webpack-plugin": "^5.0.0"
   }
 }
