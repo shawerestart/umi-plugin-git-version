@@ -17,6 +17,8 @@
 
 2. 使用
 
+    在umi@4中使用
+
    ```javascript
    // .umirc.js 或者 .umirc.ts
    // 添加
@@ -24,6 +26,11 @@
      plugins: ['umi-plugin-git-version'],
    }
    ```
+    在umi@3中使用
+
+    ```javascript
+      // do nothing, umi@3 will scan your node_modules and add to plugins
+    ```
 
 3. 在页面中使用变量
 
