@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-git-version",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "get git version for umi base on git-revision-webpack-plugin",
   "authors": [
     "Tung <d0onmax95@gmail.com>"
