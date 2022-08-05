@@ -1,11 +1,11 @@
 {
   "name": "umi-plugin-git-version",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "get git version for umi base on git-revision-webpack-plugin",
   "authors": [
     "Tung <d0onmax95@gmail.com>"
   ],
-  "repository": "shawerestart/umi-plugin-git-version",
+  "repository": "umi-plugin-git-version",
   "peerDependencies": {
     "umi": "4.x"
   },
