@@ -9,7 +9,7 @@ export default api => {
       },
       onChange: api.ConfigChangeType.reload,
     },
-    enableBy: api.EnableBy.register,
+    enableBy: 'register',
   })
   const isUmi4 = typeof api.modifyAppData === 'function'
   const configFn = isUmi4 ? api.modifyWebpackConfig : api.chainWebpack
