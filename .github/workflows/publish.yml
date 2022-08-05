@@ -2,7 +2,7 @@ name: npm-publish
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   publish:
@@ -13,7 +13,7 @@ jobs:
     environment: npm
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
 
       - name: Install and Build 
         run: |
@@ -26,4 +26,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
-          default_branch: 'master'
+          default_branch: 'main'
