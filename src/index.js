@@ -1,5 +1,7 @@
 const { GitRevisionPlugin } = require('git-revision-webpack-plugin')
-const gitRevisionPlugin = new GitRevisionPlugin()
+const gitRevisionPlugin = new GitRevisionPlugin({
+  versionCommand: `git describe --abbrev=0 --tags`,
+})
 export default api => {
   const isUmi4 = typeof api.modifyAppData === 'function'
 
